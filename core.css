@@ -1,0 +1,44 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.posts-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.title {
+  text-transform: uppercase;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.slider-container {
+  display: flex;
+  height: 50vh;
+}
+
+.slider {
+  display: flex;
+  padding: 2rem 0 2rem 2rem;
+}
+
+.slider-item {
+  display: flex;
+  margin-right: 24px;
+}
+
+.slider-img {
+  height: 100%;
+  display: block;
+}
+
+.slider::-webkit-scrollbar {
+  display: none;
+}
+
+.slider img {
+  height: 100%;
+}
